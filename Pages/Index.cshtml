@@ -1,0 +1,25 @@
+﻿@page
+@model BPCalculator.Pages.BloodPressureModel
+
+@{
+    ViewData["Title"] = "BP Calculator";
+}
+
+<div style="display: flex; flex-direction: column; align-items: center; min-height: 100vh; font-family: Arial, sans-serif;">
+
+    <h1 style="color: #333;">Blood Pressure Calculator</h1>
+
+    <form method="post" style="display: flex; flex-direction: column; width: 250px; gap: 10px; margin-top: 20px;">
+        <input asp-for="BP.Systolic" placeholder="Systolic (70-190)" style="padding: 8px; border: 1px solid #ccc; border-radius: 5px;" />
+        <input asp-for="BP.Diastolic" placeholder="Diastolic (40-100)" style="padding: 8px; border: 1px solid #ccc; border-radius: 5px;" />
+        <button type="submit" style="background-color: orange; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer;">Calculate</button>
+    </form>
+
+    @if (Model.Category != null)
+    {
+        <div style="margin-top: 25px; text-align: center; background-color: white; padding: 15px 25px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+            <div style="color: #333; font-weight: bold; font-size: 18px;"> <span> BP Category : </span> @Model.Category</div>
+            <div style="color: #555; margin-top: 5px; font-style: italic;"><span>  <b>  Recommendation : </b> </span> @BPCategoryExplainer.GetRecommendations(Model.Category)</div>
+        </div>
+    }
+</div>

@@ -1,0 +1,482 @@
+2025-12-01 13:28:34.615 +05:30 [INF] User profile is available. Using 'C:\Users\Biki\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-01 13:28:34.682 +05:30 [INF] Starting web host with BP + BMI calculators. Environment: Development
+2025-12-01 13:28:34.785 +05:30 [INF] Now listening on: http://localhost:5000
+2025-12-01 13:28:34.788 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-01 13:28:34.789 +05:30 [INF] Hosting environment: Development
+2025-12-01 13:28:34.789 +05:30 [INF] Content root path: D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Assignments\bp-calculator
+2025-12-01 13:28:41.398 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-12-01 13:28:41.407 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-12-01 13:28:41.429 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 13:28:41.448 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 13:28:41.456 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnGet - ModelState is "Valid"
+2025-12-01 13:28:41.459 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-12-01 13:28:41.465 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-12-01 13:28:41.466 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 13:28:41.564 +05:30 [INF] Executed page /Index in 113.2422ms
+2025-12-01 13:28:41.578 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 13:28:41.581 +05:30 [INF] API GET / -> 200 in 174ms
+2025-12-01 13:28:41.586 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 190.0671ms
+2025-12-01 13:28:41.620 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-12-01 13:28:41.622 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css - null null
+2025-12-01 13:28:41.623 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - null null
+2025-12-01 13:28:41.625 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-12-01 13:28:41.628 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18 - null null
+2025-12-01 13:28:41.628 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2025-12-01 13:28:41.636 +05:30 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2025-12-01 13:28:41.638 +05:30 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Assignments\bp-calculator\wwwroot\css\site.css'
+2025-12-01 13:28:41.639 +05:30 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2025-12-01 13:28:41.644 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Assignments\bp-calculator\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-12-01 13:28:41.644 +05:30 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Assignments\bp-calculator\wwwroot\js\site.js'
+2025-12-01 13:28:41.647 +05:30 [INF] The file /lib/jquery-validation/dist/jquery.validate.min.js was not modified
+2025-12-01 13:28:41.647 +05:30 [INF] API GET /lib/jquery/dist/jquery.min.js -> 304 in 13ms
+2025-12-01 13:28:41.649 +05:30 [INF] API GET /css/site.css -> 200 in 17ms
+2025-12-01 13:28:41.650 +05:30 [INF] API GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js -> 304 in 11ms
+2025-12-01 13:28:41.651 +05:30 [INF] API GET /lib/bootstrap/dist/css/bootstrap.min.css -> 200 in 22ms
+2025-12-01 13:28:41.652 +05:30 [INF] API GET /js/site.js -> 200 in 9ms
+2025-12-01 13:28:41.666 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18 - 200 230 text/javascript 37.8126ms
+2025-12-01 13:28:41.656 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - 304 null text/javascript 32.8768ms
+2025-12-01 13:28:41.659 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/css/site.css - 200 1417 text/css 37.516ms
+2025-12-01 13:28:41.661 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 36.6986ms
+2025-12-01 13:28:41.664 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - 200 155764 text/css 44.727ms
+2025-12-01 13:28:41.654 +05:30 [INF] API GET /lib/jquery-validation/dist/jquery.validate.min.js -> 304 in 7ms
+2025-12-01 13:28:41.674 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2025-12-01 13:28:41.680 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/jquery-validation/dist/jquery.validate.min.js - 304 null text/javascript 51.6417ms
+2025-12-01 13:28:41.682 +05:30 [INF] The file /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js was not modified
+2025-12-01 13:28:41.685 +05:30 [INF] API GET /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js -> 304 in 3ms
+2025-12-01 13:28:41.687 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 304 null text/javascript 13.0381ms
+2025-12-01 13:28:41.749 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - null null
+2025-12-01 13:28:41.759 +05:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Assignments\bp-calculator\wwwroot\favicon.ico'
+2025-12-01 13:28:41.761 +05:30 [INF] API GET /favicon.ico -> 200 in 9ms
+2025-12-01 13:28:41.763 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - 499 32038 image/x-icon 13.5219ms
+2025-12-01 13:29:24.651 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 13:29:24.654 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 13:29:24.655 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 13:29:24.670 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 13:29:24.673 +05:30 [INF] Blood Pressure reading 125/89 categorized as PreHigh
+2025-12-01 13:29:24.674 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 13:29:24.678 +05:30 [INF] Executed page /Index in 22.6967ms
+2025-12-01 13:29:24.680 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 13:29:24.681 +05:30 [INF] API POST / -> 200 in 27ms
+2025-12-01 13:29:24.683 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 31.9116ms
+2025-12-01 13:29:24.981 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - null null
+2025-12-01 13:29:24.984 +05:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Assignments\bp-calculator\wwwroot\favicon.ico'
+2025-12-01 13:29:24.986 +05:30 [INF] API GET /favicon.ico -> 200 in 1ms
+2025-12-01 13:29:24.987 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - 499 32038 image/x-icon 5.9204ms
+2025-12-01 13:30:18.244 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 13:30:18.246 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 13:30:18.247 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 13:30:18.249 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 13:30:18.250 +05:30 [INF] Blood Pressure reading 134/90 categorized as High
+2025-12-01 13:30:18.251 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 13:30:18.253 +05:30 [INF] Executed page /Index in 5.5811ms
+2025-12-01 13:30:18.255 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 13:30:18.255 +05:30 [INF] API POST / -> 200 in 9ms
+2025-12-01 13:30:18.257 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 13.1059ms
+2025-12-01 13:30:18.437 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - null null
+2025-12-01 13:30:18.439 +05:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Assignments\bp-calculator\wwwroot\favicon.ico'
+2025-12-01 13:30:18.440 +05:30 [INF] API GET /favicon.ico -> 200 in 1ms
+2025-12-01 13:30:18.442 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - 499 32038 image/x-icon 4.8848ms
+2025-12-01 13:33:25.203 +05:30 [INF] Application is shutting down...
+2025-12-01 16:24:14.357 +05:30 [INF] User profile is available. Using 'C:\Users\Biki\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-01 16:24:14.422 +05:30 [INF] Starting web host with BP + BMI calculators. Environment: Development
+2025-12-01 16:24:14.509 +05:30 [INF] Now listening on: http://localhost:5000
+2025-12-01 16:24:14.512 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-01 16:24:14.512 +05:30 [INF] Hosting environment: Development
+2025-12-01 16:24:14.513 +05:30 [INF] Content root path: D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Krishna_Assignments\bp-calculator
+2025-12-01 16:24:17.551 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-12-01 16:24:17.560 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-12-01 16:24:17.577 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:24:17.595 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:24:17.603 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnGet - ModelState is "Valid"
+2025-12-01 16:24:17.607 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-12-01 16:24:17.610 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-12-01 16:24:17.611 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:24:17.686 +05:30 [INF] Executed page /Index in 88.0665ms
+2025-12-01 16:24:17.700 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:24:17.701 +05:30 [INF] API GET / -> 200 in 142ms
+2025-12-01 16:24:17.706 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 156.3843ms
+2025-12-01 16:24:26.706 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 16:24:26.708 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:24:26.709 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:24:26.722 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 16:24:26.723 +05:30 [INF] Blood Pressure reading 140/89 categorized as High
+2025-12-01 16:24:26.725 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:24:26.729 +05:30 [INF] Executed page /Index in 19.0137ms
+2025-12-01 16:24:26.730 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:24:26.731 +05:30 [INF] API POST / -> 200 in 22ms
+2025-12-01 16:24:26.733 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 27.1251ms
+2025-12-01 16:34:34.410 +05:30 [INF] Application is shutting down...
+2025-12-01 16:45:25.850 +05:30 [INF] User profile is available. Using 'C:\Users\Biki\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-01 16:45:25.910 +05:30 [INF] Starting web host with BP Calculator and Category Explainer. Environment: Development
+2025-12-01 16:45:25.982 +05:30 [INF] Now listening on: http://localhost:5000
+2025-12-01 16:45:25.984 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-01 16:45:25.985 +05:30 [INF] Hosting environment: Development
+2025-12-01 16:45:25.986 +05:30 [INF] Content root path: D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Krishna_Assignments\bp-calculator
+2025-12-01 16:45:28.494 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-12-01 16:45:28.505 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-12-01 16:45:28.524 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:45:28.544 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:45:28.554 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnGet - ModelState is "Valid"
+2025-12-01 16:45:28.558 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-12-01 16:45:28.561 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-12-01 16:45:28.562 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:45:28.643 +05:30 [INF] Executed page /Index in 95.0606ms
+2025-12-01 16:45:28.655 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:45:28.657 +05:30 [INF] API GET / -> 200 in 153ms
+2025-12-01 16:45:28.661 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 168.6492ms
+2025-12-01 16:45:28.683 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-12-01 16:45:28.696 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Krishna_Assignments\bp-calculator\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-12-01 16:45:28.699 +05:30 [INF] API GET /lib/bootstrap/dist/css/bootstrap.min.css -> 200 in 9ms
+2025-12-01 16:45:28.702 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - 499 155764 text/css 20.2106ms
+2025-12-01 16:47:09.453 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-12-01 16:47:09.456 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:47:09.457 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:47:09.458 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnGet - ModelState is "Valid"
+2025-12-01 16:47:09.459 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-12-01 16:47:09.459 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-12-01 16:47:09.460 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:47:09.468 +05:30 [INF] Executed page /Index in 10.348ms
+2025-12-01 16:47:09.469 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:47:09.470 +05:30 [INF] API GET / -> 200 in 14ms
+2025-12-01 16:47:09.472 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 18.7691ms
+2025-12-01 16:47:15.477 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 16:47:15.479 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:47:15.480 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:47:15.493 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 16:47:15.494 +05:30 [INF] Blood Pressure reading 100/60 categorized as Ideal
+2025-12-01 16:47:15.495 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:47:15.511 +05:30 [INF] Executed page /Index in 29.1937ms
+2025-12-01 16:47:15.512 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:47:15.514 +05:30 [INF] API POST / -> 200 in 34ms
+2025-12-01 16:47:15.515 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 37.8731ms
+2025-12-01 16:50:12.796 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 16:50:12.798 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:50:12.799 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:50:12.803 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 16:50:12.805 +05:30 [INF] Blood Pressure reading 100/60 categorized as Ideal
+2025-12-01 16:50:12.807 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:50:12.809 +05:30 [INF] Executed page /Index in 8.0631ms
+2025-12-01 16:50:12.810 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:50:12.811 +05:30 [INF] API POST / -> 200 in 13ms
+2025-12-01 16:50:12.813 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 16.9709ms
+2025-12-01 16:51:46.225 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 16:51:46.227 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:51:46.228 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:51:46.229 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 16:51:46.230 +05:30 [INF] Blood Pressure reading 100/60 categorized as Ideal
+2025-12-01 16:51:46.232 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:51:46.235 +05:30 [INF] Executed page /Index in 6.6906ms
+2025-12-01 16:51:46.238 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:51:46.238 +05:30 [INF] API POST / -> 200 in 11ms
+2025-12-01 16:51:46.240 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 15.1644ms
+2025-12-01 16:51:52.440 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 16:51:52.444 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:51:52.444 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:51:52.447 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 16:51:52.450 +05:30 [INF] Blood Pressure reading 140/89 categorized as High
+2025-12-01 16:51:52.453 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:51:52.457 +05:30 [INF] Executed page /Index in 10.4713ms
+2025-12-01 16:51:52.458 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:51:52.460 +05:30 [INF] API POST / -> 200 in 16ms
+2025-12-01 16:51:52.462 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 22.1428ms
+2025-12-01 16:54:10.045 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 16:54:10.047 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:54:10.047 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:54:10.050 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 16:54:10.051 +05:30 [INF] Blood Pressure reading 140/89 categorized as High
+2025-12-01 16:54:10.052 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:54:10.054 +05:30 [INF] Executed page /Index in 4.9287ms
+2025-12-01 16:54:10.055 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:54:10.056 +05:30 [INF] API POST / -> 200 in 9ms
+2025-12-01 16:54:10.058 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 12.5707ms
+2025-12-01 16:54:13.750 +05:30 [INF] Application is shutting down...
+2025-12-01 16:54:20.984 +05:30 [INF] User profile is available. Using 'C:\Users\Biki\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-01 16:54:21.047 +05:30 [INF] Starting web host with BP Calculator and Category Explainer. Environment: Development
+2025-12-01 16:54:21.126 +05:30 [INF] Now listening on: http://localhost:5000
+2025-12-01 16:54:21.128 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-01 16:54:21.129 +05:30 [INF] Hosting environment: Development
+2025-12-01 16:54:21.129 +05:30 [INF] Content root path: D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Krishna_Assignments\bp-calculator
+2025-12-01 16:54:22.604 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-12-01 16:54:22.613 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-12-01 16:54:22.635 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:54:22.655 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:54:22.663 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnGet - ModelState is "Valid"
+2025-12-01 16:54:22.666 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-12-01 16:54:22.670 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-12-01 16:54:22.672 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:54:22.740 +05:30 [INF] Executed page /Index in 81.7901ms
+2025-12-01 16:54:22.753 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:54:22.755 +05:30 [INF] API GET / -> 200 in 142ms
+2025-12-01 16:54:22.760 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 158.4883ms
+2025-12-01 16:54:22.781 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-12-01 16:54:22.782 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css - null null
+2025-12-01 16:54:22.789 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18 - null null
+2025-12-01 16:54:22.794 +05:30 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Krishna_Assignments\bp-calculator\wwwroot\js\site.js'
+2025-12-01 16:54:22.794 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Krishna_Assignments\bp-calculator\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-12-01 16:54:22.794 +05:30 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Krishna_Assignments\bp-calculator\wwwroot\css\site.css'
+2025-12-01 16:54:22.795 +05:30 [INF] API GET /js/site.js -> 200 in 2ms
+2025-12-01 16:54:22.799 +05:30 [INF] API GET /lib/bootstrap/dist/css/bootstrap.min.css -> 200 in 12ms
+2025-12-01 16:54:22.801 +05:30 [INF] API GET /css/site.css -> 200 in 9ms
+2025-12-01 16:54:22.803 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18 - 499 230 text/javascript 14.0889ms
+2025-12-01 16:54:22.805 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - 499 155764 text/css 25.2199ms
+2025-12-01 16:54:22.807 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/css/site.css - 499 1417 text/css 24.8635ms
+2025-12-01 16:54:27.377 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 16:54:27.379 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:54:27.379 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:54:27.392 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 16:54:27.393 +05:30 [INF] Blood Pressure reading 100/60 categorized as Ideal
+2025-12-01 16:54:27.394 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:54:27.410 +05:30 [INF] Executed page /Index in 30.3716ms
+2025-12-01 16:54:27.412 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:54:27.413 +05:30 [INF] API POST / -> 200 in 34ms
+2025-12-01 16:54:27.415 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 38.6563ms
+2025-12-01 16:55:37.712 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 16:55:37.715 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:55:37.724 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:55:37.726 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 16:55:37.727 +05:30 [INF] Blood Pressure reading 100/60 categorized as Ideal
+2025-12-01 16:55:37.728 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:55:37.730 +05:30 [INF] Executed page /Index in 4.9167ms
+2025-12-01 16:55:37.731 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:55:37.732 +05:30 [INF] API POST / -> 200 in 17ms
+2025-12-01 16:55:37.733 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 21.03ms
+2025-12-01 16:55:40.597 +05:30 [INF] Application is shutting down...
+2025-12-01 16:55:46.124 +05:30 [INF] User profile is available. Using 'C:\Users\Biki\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-01 16:55:46.183 +05:30 [INF] Starting web host with BP Calculator and Category Explainer. Environment: Development
+2025-12-01 16:55:46.255 +05:30 [INF] Now listening on: http://localhost:5000
+2025-12-01 16:55:46.258 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-01 16:55:46.259 +05:30 [INF] Hosting environment: Development
+2025-12-01 16:55:46.259 +05:30 [INF] Content root path: D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Krishna_Assignments\bp-calculator
+2025-12-01 16:55:47.741 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-12-01 16:55:47.749 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-12-01 16:55:47.768 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:55:47.789 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:55:47.797 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnGet - ModelState is "Valid"
+2025-12-01 16:55:47.800 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-12-01 16:55:47.803 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-12-01 16:55:47.805 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:55:47.900 +05:30 [INF] Executed page /Index in 107.1418ms
+2025-12-01 16:55:47.912 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:55:47.914 +05:30 [INF] API GET / -> 200 in 165ms
+2025-12-01 16:55:47.918 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 179.7682ms
+2025-12-01 16:55:57.734 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 16:55:57.736 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:55:57.737 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:55:57.748 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 16:55:57.749 +05:30 [INF] Blood Pressure reading 140/80 categorized as High
+2025-12-01 16:55:57.750 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:55:57.768 +05:30 [INF] Executed page /Index in 29.8615ms
+2025-12-01 16:55:57.770 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:55:57.771 +05:30 [INF] API POST / -> 200 in 35ms
+2025-12-01 16:55:57.775 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 41.2665ms
+2025-12-01 16:57:02.009 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 16:57:02.012 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:57:02.013 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:57:02.017 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 16:57:02.019 +05:30 [INF] Blood Pressure reading 140/80 categorized as High
+2025-12-01 16:57:02.020 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:57:02.023 +05:30 [INF] Executed page /Index in 8.8261ms
+2025-12-01 16:57:02.024 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:57:02.025 +05:30 [INF] API POST / -> 200 in 13ms
+2025-12-01 16:57:02.027 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 17.6329ms
+2025-12-01 16:57:23.845 +05:30 [INF] Application is shutting down...
+2025-12-01 16:57:34.813 +05:30 [INF] User profile is available. Using 'C:\Users\Biki\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-01 16:57:34.873 +05:30 [INF] Starting web host with BP Calculator and Category Explainer. Environment: Development
+2025-12-01 16:57:34.947 +05:30 [INF] Now listening on: http://localhost:5000
+2025-12-01 16:57:34.949 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-01 16:57:34.950 +05:30 [INF] Hosting environment: Development
+2025-12-01 16:57:34.951 +05:30 [INF] Content root path: D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Krishna_Assignments\bp-calculator
+2025-12-01 16:57:36.538 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-12-01 16:57:36.550 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-12-01 16:57:36.572 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:57:36.592 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:57:36.602 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnGet - ModelState is "Valid"
+2025-12-01 16:57:36.605 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-12-01 16:57:36.608 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-12-01 16:57:36.609 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:57:36.685 +05:30 [INF] Executed page /Index in 88.9778ms
+2025-12-01 16:57:36.696 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:57:36.700 +05:30 [INF] API GET / -> 200 in 151ms
+2025-12-01 16:57:36.705 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 167.6332ms
+2025-12-01 16:57:39.256 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 16:57:39.258 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:57:39.259 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:57:39.270 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 16:57:39.271 +05:30 [INF] Blood Pressure reading 100/60 categorized as Ideal
+2025-12-01 16:57:39.272 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:57:39.289 +05:30 [INF] Executed page /Index in 29.1761ms
+2025-12-01 16:57:39.290 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:57:39.291 +05:30 [INF] API POST / -> 200 in 33ms
+2025-12-01 16:57:39.293 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 37.3862ms
+2025-12-01 16:58:44.311 +05:30 [INF] Application is shutting down...
+2025-12-01 16:58:50.763 +05:30 [INF] User profile is available. Using 'C:\Users\Biki\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-01 16:58:50.826 +05:30 [INF] Starting web host with BP Calculator and Category Explainer. Environment: Development
+2025-12-01 16:58:50.901 +05:30 [INF] Now listening on: http://localhost:5000
+2025-12-01 16:58:50.903 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-01 16:58:50.904 +05:30 [INF] Hosting environment: Development
+2025-12-01 16:58:50.905 +05:30 [INF] Content root path: D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Krishna_Assignments\bp-calculator
+2025-12-01 16:58:53.960 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-12-01 16:58:53.969 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-12-01 16:58:53.987 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:58:54.005 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:58:54.017 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnGet - ModelState is "Valid"
+2025-12-01 16:58:54.020 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-12-01 16:58:54.023 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-12-01 16:58:54.024 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:58:54.089 +05:30 [INF] Executed page /Index in 80.9129ms
+2025-12-01 16:58:54.104 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:58:54.105 +05:30 [INF] API GET / -> 200 in 137ms
+2025-12-01 16:58:54.111 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 152.3118ms
+2025-12-01 16:59:15.506 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-12-01 16:59:15.509 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:59:15.509 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:59:15.510 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnGet - ModelState is "Valid"
+2025-12-01 16:59:15.511 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-12-01 16:59:15.512 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-12-01 16:59:15.513 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:59:15.519 +05:30 [INF] Executed page /Index in 8.9648ms
+2025-12-01 16:59:15.520 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:59:15.521 +05:30 [INF] API GET / -> 200 in 12ms
+2025-12-01 16:59:15.522 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 16.7598ms
+2025-12-01 16:59:19.805 +05:30 [INF] Application is shutting down...
+2025-12-01 16:59:26.077 +05:30 [INF] User profile is available. Using 'C:\Users\Biki\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-01 16:59:26.148 +05:30 [INF] Starting web host with BP Calculator and Category Explainer. Environment: Development
+2025-12-01 16:59:26.284 +05:30 [INF] Now listening on: http://localhost:5000
+2025-12-01 16:59:26.286 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-01 16:59:26.287 +05:30 [INF] Hosting environment: Development
+2025-12-01 16:59:26.288 +05:30 [INF] Content root path: D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Krishna_Assignments\bp-calculator
+2025-12-01 16:59:27.578 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-12-01 16:59:27.589 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-12-01 16:59:27.612 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:59:27.635 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:59:27.643 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnGet - ModelState is "Valid"
+2025-12-01 16:59:27.646 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-12-01 16:59:27.650 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-12-01 16:59:27.652 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:59:27.726 +05:30 [INF] Executed page /Index in 87.6083ms
+2025-12-01 16:59:27.741 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:59:27.743 +05:30 [INF] API GET / -> 200 in 153ms
+2025-12-01 16:59:27.748 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 172.0684ms
+2025-12-01 16:59:30.704 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 16:59:30.706 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 16:59:30.707 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 16:59:30.718 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 16:59:30.720 +05:30 [INF] Blood Pressure reading 100/60 categorized as Ideal
+2025-12-01 16:59:30.721 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 16:59:30.736 +05:30 [INF] Executed page /Index in 28.5653ms
+2025-12-01 16:59:30.737 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 16:59:30.738 +05:30 [INF] API POST / -> 200 in 31ms
+2025-12-01 16:59:30.739 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 36.1097ms
+2025-12-01 16:59:51.919 +05:30 [INF] Application is shutting down...
+2025-12-01 17:00:35.600 +05:30 [INF] User profile is available. Using 'C:\Users\Biki\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-01 17:00:35.657 +05:30 [INF] Starting web host with BP Calculator and Category Explainer. Environment: Development
+2025-12-01 17:00:35.763 +05:30 [INF] Now listening on: http://localhost:5000
+2025-12-01 17:00:35.765 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-01 17:00:35.765 +05:30 [INF] Hosting environment: Development
+2025-12-01 17:00:35.766 +05:30 [INF] Content root path: D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Krishna_Assignments\bp-calculator
+2025-12-01 17:00:38.585 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-12-01 17:00:38.594 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-12-01 17:00:38.614 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 17:00:38.633 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 17:00:38.641 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnGet - ModelState is "Valid"
+2025-12-01 17:00:38.644 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-12-01 17:00:38.648 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-12-01 17:00:38.650 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 17:00:38.717 +05:30 [INF] Executed page /Index in 79.674ms
+2025-12-01 17:00:38.730 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 17:00:38.731 +05:30 [INF] API GET / -> 200 in 138ms
+2025-12-01 17:00:38.737 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 153.3317ms
+2025-12-01 17:00:51.159 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 17:00:51.161 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 17:00:51.162 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 17:00:51.172 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 17:00:51.174 +05:30 [INF] Blood Pressure reading 100/80 categorized as PreHigh
+2025-12-01 17:00:51.175 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 17:00:51.192 +05:30 [INF] Executed page /Index in 28.8307ms
+2025-12-01 17:00:51.194 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 17:00:51.196 +05:30 [INF] API POST / -> 200 in 34ms
+2025-12-01 17:00:51.198 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 39.7815ms
+2025-12-01 17:01:00.891 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 17:01:00.893 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 17:01:00.894 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 17:01:00.896 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 17:01:00.896 +05:30 [INF] Blood Pressure reading 100/76 categorized as Ideal
+2025-12-01 17:01:00.897 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 17:01:00.900 +05:30 [INF] Executed page /Index in 4.6165ms
+2025-12-01 17:01:00.901 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 17:01:00.902 +05:30 [INF] API POST / -> 200 in 8ms
+2025-12-01 17:01:00.903 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 12.6378ms
+2025-12-01 17:01:07.959 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 17:01:07.961 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 17:01:07.961 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 17:01:07.962 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 17:01:07.963 +05:30 [INF] Blood Pressure reading 106/76 categorized as Ideal
+2025-12-01 17:01:07.964 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 17:01:07.966 +05:30 [INF] Executed page /Index in 3.6617ms
+2025-12-01 17:01:07.967 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 17:01:07.968 +05:30 [INF] API POST / -> 200 in 6ms
+2025-12-01 17:01:07.969 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 9.9869ms
+2025-12-01 17:01:12.617 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 17:01:12.619 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 17:01:12.620 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 17:01:12.621 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 17:01:12.622 +05:30 [INF] Blood Pressure reading 106/80 categorized as PreHigh
+2025-12-01 17:01:12.623 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 17:01:12.625 +05:30 [INF] Executed page /Index in 4.1973ms
+2025-12-01 17:01:12.626 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 17:01:12.627 +05:30 [INF] API POST / -> 200 in 7ms
+2025-12-01 17:01:12.628 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 10.331ms
+2025-12-01 17:01:17.334 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 17:01:17.336 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 17:01:17.337 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 17:01:17.338 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 17:01:17.339 +05:30 [INF] Blood Pressure reading 106/76 categorized as Ideal
+2025-12-01 17:01:17.340 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 17:01:17.342 +05:30 [INF] Executed page /Index in 4.574ms
+2025-12-01 17:01:17.343 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 17:01:17.344 +05:30 [INF] API POST / -> 200 in 8ms
+2025-12-01 17:01:17.346 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 11.2388ms
+2025-12-01 17:09:30.203 +05:30 [INF] Application is shutting down...
+2025-12-01 17:09:35.884 +05:30 [INF] User profile is available. Using 'C:\Users\Biki\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-01 17:09:35.942 +05:30 [INF] Starting web host with BP Calculator and Category Explainer. Environment: Development
+2025-12-01 17:09:36.015 +05:30 [INF] Now listening on: http://localhost:5000
+2025-12-01 17:09:36.017 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-01 17:09:36.017 +05:30 [INF] Hosting environment: Development
+2025-12-01 17:09:36.018 +05:30 [INF] Content root path: D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Krishna_Assignments\bp-calculator
+2025-12-01 17:09:37.392 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-12-01 17:09:37.402 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-12-01 17:09:37.420 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 17:09:37.440 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 17:09:37.450 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnGet - ModelState is "Valid"
+2025-12-01 17:09:37.453 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-12-01 17:09:37.455 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-12-01 17:09:37.457 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 17:09:37.523 +05:30 [INF] Executed page /Index in 79.212ms
+2025-12-01 17:09:37.534 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 17:09:37.536 +05:30 [INF] API GET / -> 200 in 135ms
+2025-12-01 17:09:37.540 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 150.0082ms
+2025-12-01 17:09:37.565 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-12-01 17:09:37.574 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\FORM_DHS\UI_DESIGN_HELLO_WORLD\temp\Naveen_Krishna_Assignments\bp-calculator\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-12-01 17:09:37.576 +05:30 [INF] API GET /lib/bootstrap/dist/css/bootstrap.min.css -> 200 in 7ms
+2025-12-01 17:09:37.578 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - 499 155764 text/css 12.8453ms
+2025-12-01 17:09:40.463 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 17:09:40.466 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 17:09:40.467 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 17:09:40.480 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 17:09:40.481 +05:30 [INF] Blood Pressure reading 100/60 categorized as Ideal
+2025-12-01 17:09:40.483 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 17:09:40.499 +05:30 [INF] Executed page /Index in 31.5806ms
+2025-12-01 17:09:40.501 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 17:09:40.502 +05:30 [INF] API POST / -> 200 in 36ms
+2025-12-01 17:09:40.504 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 40.0086ms
+2025-12-01 17:09:46.547 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/ - application/x-www-form-urlencoded 263
+2025-12-01 17:09:46.549 +05:30 [INF] Executing endpoint '/Index'
+2025-12-01 17:09:46.549 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-12-01 17:09:46.551 +05:30 [INF] Executing handler method BPCalculator.Pages.BloodPressureModel.OnPost - ModelState is "Valid"
+2025-12-01 17:09:46.552 +05:30 [INF] Blood Pressure reading 140/89 categorized as High
+2025-12-01 17:09:46.553 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-12-01 17:09:46.555 +05:30 [INF] Executed page /Index in 4.9729ms
+2025-12-01 17:09:46.556 +05:30 [INF] Executed endpoint '/Index'
+2025-12-01 17:09:46.557 +05:30 [INF] API POST / -> 200 in 8ms
+2025-12-01 17:09:46.558 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/ - 200 null text/html; charset=utf-8 11.2832ms
+2025-12-01 17:42:45.780 +05:30 [INF] Application is shutting down...
