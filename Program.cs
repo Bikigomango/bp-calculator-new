@@ -22,7 +22,7 @@ try
 
     var app = builder.Build();
 
-    // ✅ TELEMETRY MIDDLEWARE - Logs every request
+    // TELEMETRY MIDDLEWARE - Logs every request
     app.Use(async (context, next) =>
     {
         var startTime = DateTime.UtcNow;
@@ -60,7 +60,7 @@ try
         };
     });
 
-    // ✅ METRICS ENDPOINT
+    //  METRICS ENDPOINT
     app.MapGet("/metrics", () => 
     {
         Log.Information("Metrics checked - Memory: {MemoryMB}MB", 
@@ -74,7 +74,7 @@ try
         };
     });
 
-    // ✅ BP CALCULATOR API ENDPOINT
+    //  BP CALCULATOR API ENDPOINT
     app.MapPost("/api/bp/calculate", (BPRequest request) =>
     {
         Log.Information("BP Calculation - Systolic: {Systolic}, Diastolic: {Diastolic}", 
