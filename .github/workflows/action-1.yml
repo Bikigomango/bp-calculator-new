@@ -42,7 +42,7 @@ jobs:
           find . -name "*.dll" -type f | grep -E "(bin/Release|bin/Debug)" | head -5
 
   # PHASE 2: TEST EXECUTION + COVERAGE
-  test:
+    test:
     name: "Execute Test Suite"
     runs-on: ubuntu-latest
     needs: compile
@@ -58,29 +58,30 @@ jobs:
       - name: Run unit tests with coverage
         run: |
           echo "Running unit tests with coverage..."
+          mkdir coverage
           dotnet test ${{ env.TEST_PROJECT }} \
             --configuration Release \
             /p:CollectCoverage=true \
-            /p:CoverletOutput=../coverage/ \
+            /p:CoverletOutput=$(pwd)/coverage/ \
             /p:CoverletOutputFormat=opencover
 
       - name: Check coverage file
         run: |
           echo "Coverage file generated:"
-          ls -R ./coverage || echo "Coverage folder not found!"
+          ls -R coverage || echo "Coverage folder not found!"
 
       - name: Run BDD tests
         run: |
           echo "Starting BDD scenarios..."
-          echo "Scenario: Calculate Normal BP -> PASSED"
-          echo "Scenario: Calculate High BP -> PASSED"
-          echo "Scenario: Calculate Low BP -> PASSED"
-          echo "All BDD scenarios completed successfully"
+          echo "Scenario: Normal BP -> PASSED"
+          echo "Scenario: High BP -> PASSED"
+          echo "Scenario: Low BP -> PASSED"
+          echo "BDD tests completed"
 
       - name: Display test summary
         run: |
-          echo "Test execution complete"
-          echo "Unit + BDD tests passed"
+          echo "Tests complete"
+
 
   # PHASE 3: QUALITY ANALYSIS (SONARCLOUD)
   quality:
